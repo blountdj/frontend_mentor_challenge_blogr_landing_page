@@ -419,8 +419,7 @@ body {
   .hero--2 {
     background: url("../images/illustration-laptop-desktop.svg");
     background-repeat: no-repeat;
-    background-position-x: right 130%;
-    background-position-y: 30%;
+    background-position: top 30% left -30%;
     background-size: 60%;
     align-items: flex-end; }
   .hero__main--2 {
