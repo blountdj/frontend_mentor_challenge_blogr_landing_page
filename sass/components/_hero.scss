@@ -1,0 +1,123 @@
+.hero {
+  height: 88rem;
+  background: url("../images/illustration-editor-desktop.svg");
+  background-repeat: no-repeat;
+  // background-position: 150% 0;
+  // background-position: 750px 50px;
+  background-position: top 60% right -30%;
+  background-size: 60%;
+  // background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding-top: 11rem;
+  margin-top: 5rem;
+
+  &__h2 {
+    text-align: center;
+  }
+
+  &__main {
+    width: 40%; // 1440
+    margin-left: clamp(50px, calc(3.125rem + ((1vw - 10px) * 21.3636)), 144px);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &--2 {
+    background: url("../images/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: right 130%;
+    background-position-y: 30%;
+    background-size: 60%;
+    align-items: flex-end;
+  }
+
+  &__main--2 {
+    // margin-right: 14rem; // 1440
+    margin-right: clamp(50px, calc(3.125rem + ((1vw - 10px) * 20.4545)), 140px);
+    margin-top: 12rem; // 1440
+    width: 45%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    height: 120rem;
+    background: url("../images/illustration-editor-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    // background-position: top 60%;
+    background-position-x: center;
+    background-position-y: 20rem;
+    justify-content: space-between;
+
+    &__main {
+      flex-direction: row;
+      width: 90%;
+      gap: 6rem;
+      padding-bottom: 10rem;
+      // align-self: flex-end;
+
+      &__wrapper {
+        width: 50%;
+      }
+    }
+  }
+
+  .hero.hero--2 {
+    background: url("../images/illustration-laptop-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 95rem;
+  }
+
+  .hero__main--2 {
+    flex-direction: row;
+    width: 90%;
+    gap: 6rem;
+    padding-bottom: 10rem;
+    // align-self: flex-end;
+
+    margin-top: auto;
+  }
+
+  .hero__main__wrapper--2 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    &__main {
+      flex-direction: column;
+      margin: 0;
+      width: 100%;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      &__wrapper {
+        width: 90%;
+        text-align: center;
+      }
+    }
+  }
+  .hero__main--2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero__main__wrapper--2 {
+    width: 100%;
+    text-align: center;
+  }
+}

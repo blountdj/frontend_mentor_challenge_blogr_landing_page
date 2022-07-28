@@ -1,0 +1,60 @@
+.button {
+  border: none;
+  background-color: $color-white;
+  color: $color-light-red;
+  font-family: "Overpass", sans-serif;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  width: 12rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-very-light-red;
+  }
+
+  &--login {
+    background-color: transparent;
+    color: $color-white;
+  }
+
+  &--learn {
+    background-color: transparent;
+    color: $color-white;
+    border: 1px solid $color-white;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-light-red;
+    }
+  }
+}
+
+@media (max-width: 910px) {
+  .button {
+    &--login {
+      color: $color-very-dark-gray-blue;
+      font-size: 2rem;
+
+      &:hover {
+        color: $color-very-dark-gray-blue;
+        background-color: $color-white;
+      }
+    }
+    &--signup {
+      color: $color-white;
+      font-size: 2rem;
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+      background: linear-gradient(
+        to right,
+        $color-very-light-red,
+        $color-light-red
+      );
+      &:hover {
+      }
+    }
+  }
+}

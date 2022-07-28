@@ -1,0 +1,39 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-size: 1.6rem;
+  font-family: "Overpass", sans-serif; // 300, 600
+  font-family: "Ubuntu", sans-serif; // 400, 500, 700
+}
+
+.h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  font-size: 6rem; // 1440
+  //   font-size: 3.2rem; // 375
+  font-size: clamp(32px, calc(2rem + ((1vw - 3.75px) * 3.5681)), 70px);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.h2 {
+  color: $color-very-dark-blue;
+  font-family: "Overpass", sans-serif;
+  font-size: 4rem;
+}
+
+.h3 {
+  color: $color-very-dark-blue;
+  font-family: "Overpass", sans-serif;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.text {
+  color: $color-very-dark-grayish-blue;
+  line-height: 1.7;
+  font-family: "Overpass", sans-serif;
+}

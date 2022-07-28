@@ -1,0 +1,22 @@
+// ### Primary
+$color-light-red: hsl(356, 100%, 66%); // (CTA text)
+$color-very-light-red: hsl(355, 100%, 74%); // (CTA hover background)
+$color-very-dark-blue: hsl(208, 49%, 24%); // (headings)
+
+// ### Neutral
+$color-white: hsl(0, 0%, 100%); // (text)
+$color-grayish-blue: hsl(240, 2%, 79%); // (footer text)
+$color-grayish-blue-light: hsla(0, 0%, 87%, 0.651);
+$color-grayish-blue-dark: hsl(0, 0%, 31%);
+$color-very-dark-grayish-blue: hsl(207, 13%, 34%); // (body copy)
+$color-very-dark-black-blue: hsl(240, 10%, 16%); // (footer background)
+
+// ### Gradient
+
+// Background gradient - Intro/CTA mobile nav:
+$color-very-light-red: hsl(13, 100%, 72%);
+$color-light-red: hsl(353, 100%, 62%);
+
+// Background gradient - body:
+$color-very-dark-gray-blue: hsl(237, 17%, 21%);
+$color-very-dark-desaturated-blue: hsl(237, 23%, 32%);
