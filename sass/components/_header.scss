@@ -25,11 +25,15 @@
     // position: relative;
     width: 100%;
     padding-right: clamp(
-      50px,
-      calc(3.125rem + ((1vw - 10px) * 21.3636)),
+      45px,
+      calc(2.8125rem + ((1vw - 9.1px) * 18.6792)),
       144px
     );
-    padding-left: clamp(50px, calc(3.125rem + ((1vw - 10px) * 21.3636)), 144px);
+    padding-left: clamp(
+      45px,
+      calc(2.8125rem + ((1vw - 9.1px) * 18.6792)),
+      144px
+    );
     height: 10rem;
     display: flex;
     align-items: flex-start;
@@ -144,7 +148,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 915px) {
   .overlay {
     height: 50rem;
     background: url("../images/bg-pattern-intro-mobile.svg");
