@@ -291,7 +291,7 @@ body {
       width: 35rem;
       align-items: center;
       text-align: center;
-      top: 5rem;
+      top: 7rem;
       right: clamp(15px, calc(0.9375rem + ((1vw - 3.75px) * 6.5421)), 50px);
       background-color: white;
       padding: 2rem;
